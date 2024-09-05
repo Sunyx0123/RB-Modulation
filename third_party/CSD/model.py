@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from CSD import clip
+from third_party.CSD import clip
 import copy
 from torch.autograd import Function
 

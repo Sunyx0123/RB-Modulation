@@ -13,8 +13,8 @@
 # limitations under the License.
 
 
-from CSD.model import CSD_CLIP
-from CSD.utils import convert_state_dict
+from third_party.CSD.model import CSD_CLIP
+from third_party.CSD.utils import convert_state_dict
 from modules.common import LayerNorm2d, Linear
 import numpy as np
 import torch
